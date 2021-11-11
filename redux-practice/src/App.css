@@ -1,0 +1,61 @@
+body{
+  text-align: center;
+  color: #ffffff;
+  background-color: rgb(3, 19, 31);
+}
+*{
+  outline:none!important
+}
+.App{
+  display: flex;
+}
+
+.App .section_container {
+  width: 50%;
+  border-right: 2px solid #ffffff;
+}
+
+.App .cart_container {
+  width: 50%;
+}
+
+.product_container{
+  width: 300px;
+  height: 220px;
+  padding: 10px 20px;
+  margin:20px auto;
+  border: 1px solid tomato;
+}
+
+.product_container button, .food_card button{
+  color: #ffffff;
+  background-color: rgb(56, 142, 177);
+  border: none;
+  border-radius: 5px;
+  padding:10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.product_container button:hover, .food_card button:hover{
+  background-color: rgb(13, 161, 112);
+}
+
+.cart{
+  border: 1px solid rgb(24, 100, 223);
+}
+.cart button{
+  background-color:rgb(204, 66, 66);
+}
+.cart .one{
+  background-color: rgb(149, 43, 236);
+  margin-right: 30px;
+}
+.food_card{
+  width: 350px;
+  height: 250px;
+  padding: 10px 20px;
+  margin:20px auto;
+  border: 1px solid rgb(197, 31, 2);
+}
